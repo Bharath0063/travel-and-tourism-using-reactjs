@@ -1,0 +1,58 @@
+.topper{
+    text-align: center;
+    margin-top: 50px;
+    /* font-family: cursive; */
+    
+}
+
+
+.connect{
+    
+    display: flex;
+    background-color: burlywood;
+
+    margin-top: 10px;
+    height: 550px;
+    margin-bottom: 100px;
+}
+.standimg{
+    width: 95%;
+    border-radius: 10px;
+    height: 550px;
+    padding: 10px 20px;
+    border-style: none;
+}
+.data{
+   width: 100%;
+   margin-top: 10px;
+   
+}
+.data h1{
+    font-family: cursive;
+    text-shadow: 1px;
+    margin-left: 10px;
+}
+.data input{
+    width: 85%;
+    margin-top: 5px;
+    font-size: 20px;
+    border: 1px solid black;
+    
+}
+.data input::placeholder{
+    color: rgb(117, 110, 110);
+    font-size: 12px;
+
+}
+.submit-btn{
+    margin-top: 10px;
+    background-color: yellow;
+    width: 85%;
+    padding: 5px;
+    font-size: 25px;
+    border-radius: 10PX;
+    font-family: A;
+    letter-spacing: 3PX;
+    font-weight: 600;
+    border-style: none;
+}

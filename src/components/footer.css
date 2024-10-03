@@ -1,0 +1,269 @@
+
+.Footer {
+    position: relative;
+    width: 100%;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.para{
+    font-size: 3rem;
+    display: flex;
+    
+    color: #007bff;
+    
+}
+
+.videoDiv {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+.headerto{
+    display: flex;
+    padding-top: -40px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.headerto small{
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 80px;
+    
+    
+
+}
+.headerto h2{
+    margin-top: 90px;
+    margin-left: -120px;
+}
+.settwo{
+        margin-left: 140px;
+        
+}
+.inputDivide{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 120px;
+    margin-top: -50px;
+}
+.now{
+    width: 40%;
+}
+.compo video{
+    height: 500px;
+}
+
+.videoDiv video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.secContent {
+    position: relative;
+    padding: 60px 20px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contactDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text {
+    text-align: center;
+}
+
+
+.text h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.inputDiv {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+input {
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    width: 250px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn .icon {
+    margin-left: 5px;
+}
+
+.footerCard {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-bottom: 1px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: rgb(245, 241, 241);
+    
+    color: #000000;
+    width: 70%;
+    
+}
+
+.footerIntro {
+    flex: 1;
+    max-width: 400px;
+    padding-top: 20px;
+    padding-left: 10px;
+    text-align: justify;
+}
+
+.logoDiv {
+    margin-bottom: 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.logo .icon {
+    margin-right: 10px;
+    font-size: 2rem;
+}
+
+.footerParagraph {
+   
+    font-size: 1.3rem;
+    padding-top: 5px;
+}
+
+.footerSocials {
+    display: flex;
+    margin-left: 50px;
+    gap: 10px;
+}
+
+
+.footerLinks {
+
+    padding-top: 20PX;
+
+    
+}
+.like{
+    margin-right: 40px;
+}
+.groupTitle {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.footerList {
+    list-style: none;
+}
+
+.footerList {
+    display: flex;
+    padding-top: 5px;
+}
+
+.footerList .icon {
+    margin-right: 10px;
+    font-size: 1rem;
+}
+
+.footerList:hover {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.footerList:last-child {
+    border-bottom: none;
+}
+.myicons{
+   margin-top: 10px;
+   font-size: 35px;
+}
+.myicons:hover{
+    cursor: pointer;
+}
+
+.footerDiv { 
+    text-align: center;  
+    justify-content: space-between;
+    background-color: #76f1f1;
+    color: #000000;
+    width: 100%;
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    bottom: 0px;
+    margin-top: 42px;
+    
+}
+
+.footerDiv .best {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.footerDiv .hicet {
+    font-style: italic;
+    padding-left: 10px;
+    font-size: 12px;
+    padding-bottom: 4px;
+}
+.mmail{
+     margin-left: 150px;
+     cursor: pointer;
+     font-size: 20px;
+    
+}
+.num{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+    /* padding-left: 20px; */
+    cursor: alias;
+    font-size: 20px;
+
+   
+    
+}
+.mmail:hover{
+    text-decoration: underline;
+}
+.num:hover{
+    text-decoration: underline;
+}
+.vl{
+    height: 30px;
+    
+    border: 2px solid rgb(51, 43, 43);
+}
+
